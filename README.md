@@ -71,7 +71,7 @@ After completing the installation process, you can begin the document scraping a
 ## TODO
 
 - [ ] Wrap the code within a Dockerfile for containerized deployment.
-- [ ] Improve the retrieval process, possibly integrating late interaction mechanisms such as ColBERT (late interaction) for enhanced efficiency and accuracy.
+- [ ] Improve the retrieval process, possibly integrating late interaction mechanisms such as ColBERT for enhanced efficiency and accuracy.
 - [ ] Add UI, possibly with Gradio or Streamlit.
 
 ## Contribution
