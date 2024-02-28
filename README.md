@@ -2,7 +2,7 @@
 
 ## Overview
 
-The 3GPP-RAG-chat project is a weekend project for processing, and analyzing documents from the ETSI and 3GPP standards. I utilized libraries for Retrieval Augmented Generation (RAG)-powered Large Language Models (LLMs) such as Ollama and llama-index.
+The 3GPP-RAG-chat project is a weekend project for processing, and analyzing documents from the ETSI and 3GPP standards. I utilized libraries for Retrieval Augmented Generation (RAG)-powered Large Language Models (LLMs) such as Ollama and llama-index. This project needs a NVIDIA GPU with at least 12 GB VRAM.
 
 
 ## Quick Demo
