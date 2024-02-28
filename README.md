@@ -15,10 +15,10 @@ Ensure you have Python 3.x installed on your system. Then, follow these steps to
 
 ### Llama-Index
 
-Install `llama-index` and its related packages using pip:
+Install `PyMuPDF`, `llama-index` and its related packages using pip:
 
 ```bash
-pip install llama-index
+pip install llama-index PyMuPDF
 pip install llama-index-core llama-index-readers-file llama-index-llms-ollama llama-index-embeddings-huggingface
 ```
 
