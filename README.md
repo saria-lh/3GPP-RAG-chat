@@ -5,6 +5,10 @@
 The 3GPP-RAG-chat project is a weekend project for processing, and analyzing documents from the ETSI and 3GPP standards. I utilized libraries for Retrieval Augmented Generation (RAG)-powered Large Language Models (LLMs) such as Ollama and llama-index.
 
 
+## Quick Demo
+https://github.com/saria-lh/3GPP-RAG-chat/assets/139324475/91ffa295-9ce5-45f6-8967-2d6e65989c57
+
+
 ## Installation
 
 Ensure you have Python 3.x installed on your system. Then, follow these steps to install the necessary dependencies:
