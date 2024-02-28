@@ -75,9 +75,8 @@ if __name__ == "__main__":
             raise NotImplementedError
 
 
-
     query_engine = ts_index.as_query_engine()
-    print('Ask anything you want!')
+    print('Ask anything you want! Currently only Supporting Techincal Specification Documents.')
     while True:
         print('-->')
         query = input()
