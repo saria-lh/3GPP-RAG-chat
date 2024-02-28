@@ -41,21 +41,21 @@ python3 ollama_pull.py -m mistral:7b-instruct-v0.2-q8_0
 
 ## Usage
 
-After completing the installation process, you can begin the document scraping and processing workflow with the following steps:
+All you need to start querying is to download the index data `3gpp_db` from [here](https://queensuca-my.sharepoint.com/personal/20msa7_queensu_ca/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2F20msa7%5Fqueensu%5Fca%2FDocuments%2F3GPP%2DRAG%2Dchat), and go to step 4. Or you can start from scratch and begin the document scraping and processing workflow with the following steps:
 
-1. **Downloading Documents**: Execute the `download.py` script to initiate the download of all PDF files from the ETSI website. Note that this process may take several hours to complete. To save time, pre-downloaded documents and folders are made available at [link coming soon](#LINK).
+1. **Downloading Documents**: Execute the `download.py` script to initiate the download of all PDF files from the ETSI website. Note that this process may take several hours to complete.
 
     ```bash
     python download.py
     ```
 
-2. **Cleaning Documents**: Run the `clean.py` script to remove any duplicate files and older versions of documents, ensuring that only the most relevant and up-to-date documents are kept for analysis.
+2. **Cleaning Documents**: Run the `clean.py` script to remove any duplicate files and older versions of documents, ensuring that only the most relevant and up-to-date documents are kept for analysis. To save time, documents and folders are made available [here](https://queensuca-my.sharepoint.com/personal/20msa7_queensu_ca/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2F20msa7%5Fqueensu%5Fca%2FDocuments%2F3GPP%2DRAG%2Dchat).
 
     ```bash
     python clean.py
     ```
 
-3. **Indexing Documents**: Use the `index.py` script to index all documents. This step is crucial for efficiently searching and retrieving information from the documents later on.
+3. **Indexing Documents**: Use the `index.py` script to index all documents. This step is crucial for efficiently searching and retrieving information from the documents later on. To save time, the index is available available [here](https://queensuca-my.sharepoint.com/personal/20msa7_queensu_ca/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2F20msa7%5Fqueensu%5Fca%2FDocuments%2F3GPP%2DRAG%2Dchat).
 
     ```bash
     python index.py
