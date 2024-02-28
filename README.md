@@ -67,14 +67,12 @@ After completing the installation process, you can begin the document scraping a
     python query.py
     ```
 
-Follow these steps to effectively utilize the 3GPP-RAG-chat project for your document processing needs. Further details and advanced usage instructions will be provided in the comprehensive documentation available in the subsequent sections.
-
 
 ## TODO
 
 - [ ] Wrap the code within a Dockerfile for containerized deployment.
 - [ ] Improve the retrieval process, possibly integrating late interaction mechanisms such as ColBERT (late interaction) for enhanced efficiency and accuracy.
-- [ ] Add UI, possible with Gradio or Streamlit.
+- [ ] Add UI, possibly with Gradio or Streamlit.
 
 ## Contribution
 
