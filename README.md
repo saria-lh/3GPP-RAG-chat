@@ -31,9 +31,9 @@ curl -fsSL https://ollama.com/install.sh | sh
 pip install ollama
 ```
 
-### Model Pull
+### LLM Pull with Ollama
 
-Use the `ollama_pull.py` script to pull the required model:
+We will be utilizing `int8` quantized mistral 7b-instruct model. Use the `ollama_pull.py` script to pull the  model:
 
 ```bash
 python3 ollama_pull.py -m mistral:7b-instruct-v0.2-q8_0
